@@ -82,7 +82,7 @@ echo "<br><br>";
 
 // Type declaration en strict typing mode, opdracht 2f
 
-function sum(array $arr)
+function sum(array $arr): int
 {
     $sum = 0;
     foreach ($arr as $entry) {
